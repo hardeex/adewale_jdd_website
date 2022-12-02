@@ -33,10 +33,10 @@
 
     <nav class="navbar">
         <a href="#home">home</a>
-        <a href="#about">blog</a>
-        <a href="#menu">designs</a>
-        <a href="#products">support</a>
-        <a href="#review">telecom</a>
+        <a href="../html/blog.php">blog</a>
+        <a href="#designs">designs</a>
+        <a href="#support">support</a>
+        <a href="#telecom">telecom</a>
     </nav>
 
     <div class="icons">
@@ -167,7 +167,7 @@
               
           </p>
           <div class="download-btn">
-             <a href="../Html/100days_web_development_premium_course.html" target="_blank">
+             <a href="../blog/web_development_course.php" target="_blank">
               <button>Explore</button>
           </a>
           </div>
@@ -298,7 +298,7 @@
                   <div class="blog-caption">
                     <a href="http://" target="_blank" rel="noopener noreferrer">
                        <h2 class="blog-title-txt">full-stack web developer option for me?</h2>
-                    <h3>Category: Programming</h3>
+                    <h3>Category: Web Development</h3>
                     <p>
                       The 100 days web development premium course contains 100 HD videos training that will 
                       guide you to become a frontend and backend web developer . Thus, making you a full stack web developer.
@@ -306,7 +306,7 @@
                       have when I learned web development. Here is a summary of the key concept you'll explore as part of this course.
                     </p>
                     <div class="blog-explore-btn">
-                      <a href="">
+                      <a href="../blog/web_development_course.php">
                         <button>More...</button>
                       </a>
                     </div>
@@ -706,90 +706,8 @@ SMARTCARD/IUC NUMBER and the registered number.
    
     
     </main>
-
-    <footer class="footer">
-      <section>
-        <p>
-          our primary aim is to provide an avenue to acquire information technology skills and set of skills set that will
-          enable you to solve man's problems. The idea is to be financially stable while making human tasks easier.
-        </p>
-</section>
-
-<section>
-        <div>
-          <ul>
-            <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer"> Home</a>
-            </li>
-  
-            <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">Blog</a>
-            </li>
-  
-            <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">Support</a>
-            </li>
-  
-            <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">Telecom</a>
-            </li>
-  
-            <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">Architectural Designs</a>
-            </li>
-  
-            <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">Real Estate</a>
-            </li>
-
-          </ul>
-        </div>
-        </section>
-     
-        <section>
-        <div>
-
-            <ul>
-            <li>
-             
-              <a href="http://" target="_blank" rel="noopener noreferrer">Support</a>
-            </li>
-  
-            <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">Github</a>
-            </li>
-  
-            <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">Youtube</a>
-            </li>
-  
-           <hr>
-  
-            <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">Music</a>
-            </li>
-            <li>
-              <a href="" target="_blank">Football</a>
-            </li>
-            <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">Finance</a>
-            </li>
-          </ul>
-        </div>
-        </section>
-      
-       <section>
-         <div class="share">
-              <a href="#" class="fab fa-facebook-f"></a>
-              <a href="#" class="fab fa-twitter"></a>
-              <a href="#" class="fab fa-instagram"></a>
-              <a href="#" class="fab fa-linkedin"></a>
-              <a href="#" class="fab fa-pinterest"></a>
-          </div>
-           
-       </section>
-   
-    </footer>
+<!--adding the footer file--->
+   <?php  include 'footer.php'; ?>
 
 
 </body>
