@@ -1,0 +1,28 @@
+h1{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 12rem;
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: justify;
+}
+
+section ul{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    margin:  0 auto;
+    padding: 0;
+}
+
+section hr{
+    margin-bottom: 4rem;
+}
+
+ul li{
+    list-style: square;
+    font-size: 1.8rem;
+}
