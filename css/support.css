@@ -1,0 +1,115 @@
+body{
+    margin-top: 10rem;
+}
+
+.heading{
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.heading span{
+    color:var(--main-color);
+    text-transform: uppercase;
+}
+
+
+.contact{
+    margin-bottom: 8rem;
+}
+
+.contact .row{
+    display: flex;
+    background:var(--black);
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.contact .row .map{
+    flex:1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding:5rem 2rem;
+    text-align: center;
+}
+
+
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color:#fff;
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background:var(--bg);
+    border:var(--border);
+}
+
+
+.contact .row form .inputBox span{
+    color:#fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+    width: 100%;
+    padding:2rem;
+    font-size: 1.7rem;
+    color:#fff;
+    text-transform: none;
+    background:none;
+}
+
+textarea {
+    background: var(--black);
+    width: 100%;
+    resize: none;
+}
+
+/* .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    border-radius: 6px;
+    color:#fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+    background-color: var(--black);
+} */
+
+#btn-submit{
+    font-size: 1.8rem;
+    background: var(--main-color);
+    padding: 9rem 3rem;
+    display: inline-block;
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    padding-top: 1rem;
+    padding-left: 1.7rem;
+    padding-bottom: 3.5rem;
+    padding-right: 1.7rem;
+}
+
+#btn-submit:hover{
+    background-color: var(--black);
+    letter-spacing: 0.3rem;
+}
