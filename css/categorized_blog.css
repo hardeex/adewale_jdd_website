@@ -7,9 +7,10 @@ h1{
 
 h2{
     text-align: justify;
+    font-size: 6rem;
 }
 
-section ul{
+section .blog-title{
     width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -18,11 +19,16 @@ section ul{
     padding: 0;
 }
 
-section hr{
+.blog-title hr{
     margin-bottom: 4rem;
 }
 
-ul li{
+.blog-title li{
     list-style: square;
     font-size: 1.8rem;
+    color: var(--main-color);
+}
+
+p{
+    text-transform: lowercase;
 }

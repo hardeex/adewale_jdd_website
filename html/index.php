@@ -27,16 +27,16 @@
 
 <header class="header">
 
-    <a href="#" class="logo">
+    <a href="../html/index.php" class="logo">
         <img src="../images/logo.png" alt="the website logo">
     </a>
 
     <nav class="navbar">
-        <a href="#home">home</a>
+        <a href="../html/index.php">home</a>
         <a href="../html/blog.php">blog</a>
-        <a href="#designs">designs</a>
-        <a href="#support">support</a>
-        <a href="#telecom">telecom</a>
+        <a href="../html/design.php">designs</a>
+        <a href="../html/support.php">support</a>
+        <a href="../html/telecom.php">telecom</a>
     </nav>
 
     <div class="icons">
@@ -279,7 +279,7 @@
                       Like I said before, all you need is commitment and consistency.
                     </p>
                     <div class="blog-explore-btn">
-                      <a href="">
+                      <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php">
                         <button>More...</button>
                       </a>
           

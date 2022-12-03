@@ -7,9 +7,10 @@
     <title>Blog</title>
 
      <!-- Linking the css files-->
+     <link rel="stylesheet" href="../css/categorized_blog.css">
      <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/mediaQuerry.css">
-    <link rel="stylesheet" href="../css/categorized_blog.css">
+   
 
     
     <!-- linking the javascript-->
@@ -35,19 +36,25 @@
 
 <section class="scholarship-development-category" >
 <h2>scholarship category</h2>
+<ul class="blog-title">
+
+</ul>
 <hr>
 </section>
 
 <section class="programming-development-category" >
 <h2>programming category</h2>
+<ul class="blog-title" >
+    
+</ul>
 <hr>
 </section>
 
 <section class="web-development-category" >
 <h2>web development category</h2>
-<ul>
+<ul class="blog-title">
         <li>
-            <a href="">Where do i learn web development?</a>
+            <a href="../blog/web_development_course.php">Where do i learn web development?</a>
         </li>
 
         <li>
@@ -60,9 +67,13 @@
 <section class="business-development-category" >
 <h2>business category</h2>
 
-<ul>
+<ul class="blog-title">
         <li>
-            <a href="">should i use wordpress for my business website?</a>
+            <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php">should i use wordpress for my business website?</a>
+        </li>
+
+        <li>
+            <a href="../blog/why-should-my-business-have-a-website.php">Why should my business have a website?</a>
         </li>
 
         
@@ -72,17 +83,26 @@
 
 <section class="app-development-category" >
 <h2>android app development category</h2>
+<ul class="blog-title">
+
+</ul>
 <hr>
 </section>
 
 
 <section class="architecture-development-category" >
 <h2>architecture category</h2>
+<ul class="blog-title">
+
+</ul>
 <hr>
 </section>
 
 <section class="realEstate-development-category" >
 <h2>real estate category</h2>
+<ul class="blog-title">
+
+</ul>
 </section>
 
 
