@@ -77,21 +77,7 @@ textarea {
     resize: none;
 }
 
-/* .btn{
-    margin-top: 1rem;
-    display: inline-block;
-    padding:.9rem 3rem;
-    font-size: 1.7rem;
-    border-radius: 6px;
-    color:#fff;
-    background: var(--main-color);
-    cursor: pointer;
-}
 
-.btn:hover{
-    letter-spacing: .2rem;
-    background-color: var(--black);
-} */
 
 #btn-submit{
     font-size: 1.8rem;

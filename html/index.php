@@ -9,6 +9,7 @@
     <!-- Linking the css files-->
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/mediaQuerry.css">
+    <link rel="stylesheet" href="../css/categorized_blog.css">
 
     <!-- linking the javascript-->
     <script src="../js/index.js" defer></script>
@@ -94,9 +95,9 @@
     <main>
 
         <section class="hero-section" id="hero-section">
+          <h1> Learn, Build, Buy and Connect...</h1>   
             <div class="hero-content">
               <ul>
-                <h1>Learn, Build, Buy and Connect for free...</h1>
                 <li>Native Android App Development</li>
                 <li>Web Development</li>
                 <li>Software Development</li>
@@ -121,8 +122,8 @@
             </section>
 
 
-            <section class="program" >
-                <h2>Take advantage to improve your coding skills and experience</h2>
+            <section class="section" >
+                <h2>Take advantage to improve your <span>coding skills </span>  and experience</h2>
                 <ul>
                    <!--start of the first program list-->
                    <li>
@@ -227,104 +228,65 @@
                
               </section>
 
-              <section class="blog-container">
-      
-                <h2 id="recent-post-txt">Recent Post</h2>
-                <ul>
-                  <!--Start of the list-->
-                  <li>
-                    <div class="blog-post-container">
-                  <div class="blog-image">
-                  <img src="../images/why-should-my-biz-have-website.webp" alt="why-should-my-biz-have-website blog image ">
-                  <div class="blog-caption">
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                       <h2 class="blog-title-txt">Why Should my business have a website?</h2>
-                    <h3>Category: Business</h3>
-                    <p>
-                      Before we go in-depth into this intriguing question, we should have an understanding of the discrepancy 
-                      between websites, web apps and mobile applications for businesses to determine which is the best option for the business.
-                      A website is built using HTML, CSS and the JavaScript programming language. Content Management systems such as WordPress 
-                      have made the development of websites to be as extremely easy as possible at reduced cost and time. It is important to 
-                      note that the development of web applications goes beyond the scripting languages of HTML and CSS and programming languages 
-                      such as Javascript.
-                    </p>
-                    <div class="blog-explore-btn">
-                      <a href="">
-                        <button>More...</button>
-                      </a>
-                    </div>
-                    </a>    
-                  </div>
-                </div>
-                </div>
-                  </li>
-                   <!--End of the list-->
-          
-                   <!--start of blog-->
-                   <li>
-                    <div class="blog-post-container">
-                  <div class="blog-image">
-                  <img src="../images/coding.png" alt="should I use WordPress or HTML for my business website? image ">
-                  <div class="blog-caption">
-                    <h2 class="blog-title-txt">should I use WordPress or HTML for my website?</h2>
-                    <h3>Category: Programming</h3>
-                    <p>
-                      In the modern business environment, making a mobile-friendly online presence is so important that the 
-                      impact it has on businesses cannot be comprehended. This article of about helping business owners and 
-                      developers in deciding the best platform to build the website you are thinking of. <br>
-                      Unlike the development of websites using Html that can not be executed without basic scripting and programming skills.
-                      Simple websites can be developed by any individual even without any programming experience. Having scripting 
-                      and web development programming skills is an added advantage. Any business seeking to develop a simple website or 
-                      woo-commerce website for his business at a reduced cost can take advantage of Content Management systems like WordPress. 
-                      Like I said before, all you need is commitment and consistency.
-                    </p>
-                    <div class="blog-explore-btn">
-                      <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php">
-                        <button>More...</button>
-                      </a>
-          
-                    </div>
-                  </div>
-                </div>
-                </div>
-                  </li>
-                   <!--End of the list-->
-          
-                    <!--Start of the list-->
-                  <li>
-                    <div class="blog-post-container">
-                  <div class="blog-image">
-                  <img src="../images/web-programming.png" alt="why-should-my-biz-have-website blog image ">
-                  <div class="blog-caption">
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                       <h2 class="blog-title-txt">full-stack web developer option for me?</h2>
-                    <h3>Category: Web Development</h3>
-                    <p>
-                      The 100 days web development premium course contains 100 HD videos training that will 
-                      guide you to become a frontend and backend web developer . Thus, making you a full stack web developer.
-                      This is a huge course, packed with content and it's the web development bootcamp I would have loved to 
-                      have when I learned web development. Here is a summary of the key concept you'll explore as part of this course.
-                    </p>
-                    <div class="blog-explore-btn">
-                      <a href="../blog/web_development_course.php">
-                        <button>More...</button>
-                      </a>
-                    </div>
-                    </a>    
-                  </div>
-                </div>
-                </div>
-                  </li>
-                   <!--End of the list-->
-          
-                 
-                </ul>
-              </section>
+              <!--- blog section start-->
+<section class="blogs" id="blogs">
+
+<h1 id="span-blog"> <span>blog</span></h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <div class="image">
+            <img src="../images/why-should-my-biz-have-website.webp" alt="">
+        </div>
+        <div class="content">
+            <a href="../blog/why-should-my-business-have-a-website.php" class="title">Why should my business have a website?</a>
+            <span>by Adewale / 3rd December, 2022</span>
+<p> Most times web application is confused with websites. Although the major difference is hardly significant with the recent 
+improvement in programming languages used for developing both web applications and websites.
+One of the major bottlenecks that make both confused... </p>
+            <a href="../blog/why-should-my-business-have-a-website.php" class="btn">read more</a>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="../images/analytics.png" alt="">
+        </div>
+        <div class="content">
+            <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" class="title">should i use wordpress or html for my website?</a>
+            <span>by admin / 21st may, 2021</span>
+            <p>How should the website look? That is the design appearance of the website. The client or the developer can either have a 
+    rough sketch or better still use software like adobe illustrator for the design. This saves time in the long run and 
+    prevents unnecessary costs. It gives general ideas of how the designs will look.</p>
+            <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" class="btn">read more</a>
+        </div>
+    </div>
+
+    <div class="box">
+            <div class="image">
+                <img src="../images/web-programming.png" alt="">
+            </div>
+            <div class="content">
+                <a href="../blog/web_development_course.php" class="title">How do i learn web development?</a>
+                <span>by Adewale / 3rd December, 2022</span>
+ <p> The 100 days web development premium course contains 100 HD videos training that will guide you to become a frontend
+        and backend web developer . Thus, making you a full stack web developer. <br> 
+        This is a huge course, packed with content and it's the web development bootcamp I would have loved to have when I learned
+        web development. Here is a summary of the key concept you'll explore as part of this course.</p>
+                <a href="../blog/web_development_course.php" class="btn">read more</a>
+            </div>
+        </div>
+
+
+</section>
+
+<!-- blogs section ends -->
+
 
     
 
-<section class="education-container">
-  <h2 id="edu-txt">Education & scholarships</h2>
+<section class="section">
+  <h2 id="edu-txt"><span>Education & scholarships</span></h2>
 
   <ul>
     <!-- start of the list-->
@@ -390,12 +352,20 @@
   </ul>
     </section>
 
-    <section class="telecom-container">
+    <!-- <section class="section">
 
     </section>
 
+    <section class="memory-game-containet">
+
+      <div class="open-source-code-link">
+
+      </div>
+
+    </section> -->
+
     <section class="architecture-container">
-      <h2>Architectural Designs</h2>
+      <h2><span> Architectural Designs</span> </h2>
       <ul>
 
          <!-- start of architecture video container-->
@@ -557,28 +527,25 @@
        
        <a href="" target="_blank">
           <button>Contact Us</button>
-      </a>
-       
-     
+      </a>  
        </div>
- 
     </section>
     
-    
-<section class="telecom-container">
-  <h2>Telecom</h2>
+
+    <section class="telecom-container">
+  <h2><span>Telecom</span></h2>
   <ul>
     
         <!--start of the first program list-->
         <li>
           <div class="program-item">
-      <img src="../images/mtn.jpg" alt="MTN logo">
+      <img src="../Image/mtn.jpg" alt="MTN logo">
   
       <div class="program-content">
            <h2>MTN SME Data Subscriptions</h2>
-      <p>
+      <p >
         Start enjoying this very low rates for your internet browsing databundle.
-        <ul class="telecom-list">
+        <ul class="telecom-options">
           <li>500MB @ NGN 180</li>
           <li>1GB @ NGN 280</li>
           <li>2GB @ NGN 550</li>
@@ -603,13 +570,13 @@
      <!--start of the first program list-->
      <li>
       <div class="program-item">
-  <img src="../images/bet.png" alt="Betting logo">
+  <img src="../Image/bet.png" alt="Betting logo">
 
   <div class="program-content">
        <h2>Fund your betting wallet</h2>
   <p>
     Fund your betting wallet using only customer ID
-    <ul class="telecom-list">
+    <ul class="telecom-options">>
       <li>Bet9ja</li>
       <li>SportyBet</li>
       <li>NairaBet</li>
@@ -639,13 +606,13 @@
  <!--start of the first program list-->
  <li>
   <div class="program-item">
-<img src="../images/tower.png" alt="tower image">
+<img src="../Image/tower.png" alt="tower image">
 
 <div class="program-content">
    <h2>Pay your Electrcity bills</h2>
 <p>
 Pay your electricity bills online e.g. EKEDC, IKEDC, AEDC, PHEDC e.t.c.
-<ul class="telecom-list">
+<ul class="telecom-options">>
   <li>Eko Electric - EKEDC</li>
   <li>Ikeja Electric- IKEDC</li>
   <li>Ibadan Electric - IBEDC</li>
@@ -671,7 +638,7 @@ Pay your electricity bills online e.g. EKEDC, IKEDC, AEDC, PHEDC e.t.c.
  <!--start of the first program list-->
  <li>
   <div class="program-item">
-<img src="../images/cable-tv.png" alt="Cable TV image">
+<img src="../Image/cable-tv.png" alt="Cable TV image">
 
 <div class="program-content">
    <h2>Cable TV Subscriptions</h2>
@@ -693,16 +660,6 @@ SMARTCARD/IUC NUMBER and the registered number.
 
   </ul>
 </section>
-
-
-
-    <section class="memory-game-containet">
-
-      <div class="open-source-code-link">
-
-      </div>
-
-    </section>
    
     
     </main>

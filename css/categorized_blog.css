@@ -1,10 +1,17 @@
 h1{
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     margin-top: 12rem;
     text-transform: uppercase;
+    margin-bottom: 0;
 }
 
+h1 span{
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+/* 
 h2{
     text-align: justify;
     font-size: 6rem;
@@ -31,4 +38,93 @@ section .blog-title{
 
 p{
     text-transform: lowercase;
+}
+ */
+
+
+.heading{
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+ .heading span{
+    text-transform: uppercase;
+    color: var(--main-color);
+ }
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    border-radius: 6px;
+    color:#fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+    background-color: var(--black);
+}
+
+
+
+
+/** RECENT BLOG STYLING--- */
+.blogs .box-container{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 
+    repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+    margin: 0 auto;
+}
+
+.blogs .box-container .box{
+    border:var(--border);    
+}
+
+.blogs .box-container .box .image{
+    height: 25rem;
+    overflow:hidden;
+    width: 100%;
+}
+
+.blogs .box-container .box .image img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.blogs .box-container .box:hover .image img{
+    transform: scale(1.2);
+}
+
+.blogs .box-container .box .content{
+    padding:2rem;
+}
+
+.blogs .box-container .box .content .title{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color:#fff;
+}
+
+.blogs .box-container .box .content .title:hover{
+    color:var(--main-color);
+}
+
+.blogs .box-container .box .content span{
+    color:var(--main-color);
+    display: block;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.blogs .box-container .box .content p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color:#ccc;
+    padding:1rem 0;
 }

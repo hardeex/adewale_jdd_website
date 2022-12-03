@@ -32,78 +32,133 @@
 
 <main>
 
-<h1>blog categories</h1>
+<h1>blog <span> categories</span> </h1>
 
-<section class="scholarship-development-category" >
-<h2>scholarship category</h2>
-<ul class="blog-title">
+<!--- blog section start-->
+<section class="blogs" id="blogs">
 
-</ul>
-<hr>
-</section>
+    <h1 class="heading"> <span>business</span> blog </h1>
 
-<section class="programming-development-category" >
-<h2>programming category</h2>
-<ul class="blog-title" >
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="../images/why-should-my-biz-have-website.webp" alt="">
+            </div>
+            <div class="content">
+                <a href="../blog/why-should-my-business-have-a-website.php" class="title">Why should my business have a website?</a>
+                <span>by Adewale / 3rd December, 2022</span>
+ <p> Most times web application is confused with websites. Although the major difference is hardly significant with the recent 
+improvement in programming languages used for developing both web applications and websites.
+One of the major bottlenecks that make both confused... </p>
+                <a href="../blog/why-should-my-business-have-a-website.php" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="../images/analytics.png" alt="">
+            </div>
+            <div class="content">
+                <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" class="title">Is wordpress or html or css or javascript best website?</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>How should the website look? That is the design appearance of the website. The client or the developer can either have a 
+        rough sketch or better still use software like adobe illustrator for the design. This saves time in the long run and 
+        prevents unnecessary costs. It gives general ideas of how the designs will look.</p>
+                <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" class="btn">read more</a>
+            </div>
+        </div>
+
     
-</ul>
-<hr>
+
 </section>
 
-<section class="web-development-category" >
-<h2>web development category</h2>
-<ul class="blog-title">
-        <li>
-            <a href="../blog/web_development_course.php">Where do i learn web development?</a>
-        </li>
+<!-- blogs section ends -->
 
-        <li>
-            <a href="">Should I learn Html/css/javascript or wordpress?</a>
-        </li>
-</ul>
-<hr>
+<!--- blog section start-->
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> Web development <span>blog</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="../images/web-programming.png" alt="">
+            </div>
+            <div class="content">
+                <a href="../blog/web_development_course.php" class="title">How do i learn web development?</a>
+                <span>by Adewale / 3rd December, 2022</span>
+ <p> The 100 days web development premium course contains 100 HD videos training that will guide you to become a frontend
+        and backend web developer . Thus, making you a full stack web developer. <br> 
+        This is a huge course, packed with content and it's the web development bootcamp I would have loved to have when I learned
+        web development. Here is a summary of the key concept you'll explore as part of this course.</p>
+                <a href="../blog/web_development_course.php" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="../images/analytics.png" alt="">
+            </div>
+            <div class="content">
+                <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" class="title">should i use html/css or wordpress for my website?</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>Your business website is the extension of a business card. Constantly reminding your customers and creating a new list of 
+customers is not something a business owner wants to joke it. In the modern business environment, making a mobile-friendly online presence is so important that the impact it has on 
+businesses cannot be comprehended. This article of about helping business owners and developers in deciding the best platform to 
+build the website you are thinking of.</p>
+                <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" class="btn">read more</a>
+            </div>
+        </div>
+
+
+    </div>
+
 </section>
 
-<section class="business-development-category" >
-<h2>business category</h2>
+<!-- blogs section ends -->
 
-<ul class="blog-title">
-        <li>
-            <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php">should i use wordpress for my business website?</a>
-        </li>
 
-        <li>
-            <a href="../blog/why-should-my-business-have-a-website.php">Why should my business have a website?</a>
-        </li>
+<!--- blog section start-->
+<section class="blogs" id="blogs">
 
-        
-</ul>
-<hr>
+    <h1 class="heading"> <span>scholarship</span> blog</h1>
+
+   
+
+    </div>
+
 </section>
 
-<section class="app-development-category" >
-<h2>android app development category</h2>
-<ul class="blog-title">
+<!-- blogs section ends -->
 
-</ul>
-<hr>
+
+<!--- blog section start-->
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> git <span>blog</span></h1>
+
+   
+
+    </div>
+
 </section>
 
+<!-- blogs section ends -->
 
-<section class="architecture-development-category" >
-<h2>architecture category</h2>
-<ul class="blog-title">
+<!--- blog section start-->
+<section class="blogs" id="blogs">
 
-</ul>
-<hr>
+    <h1 class="heading"><span>mobile app dev </span> blog</h1>
+
+   
+
+    </div>
+
 </section>
 
-<section class="realEstate-development-category" >
-<h2>real estate category</h2>
-<ul class="blog-title">
+<!-- blogs section ends -->
 
-</ul>
-</section>
 
 
     </main>

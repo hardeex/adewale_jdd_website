@@ -51,9 +51,28 @@ section{
     overflow: hidden;
 }
 
+section h1{
+    text-align: justify;
+}
+
 section h2{
     font-size: 2.5rem;
     margin-bottom: 2rem;
+}
+
+.section ul{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin:  0 auto;
+    padding: 0;
+}
+
+section ul li{
+    font-size: 2rem;
+    padding-top: 2.3rem;
+    /* list-style-type: square; */
 }
 
 hr{
@@ -78,9 +97,20 @@ a:hover{
     letter-spacing: 0.3rem;
 }
 
-a button:hover{
+a button:hover,
+.architecture-btn a button:hover{
     background-color: #13131a;
     letter-spacing: 0.3rem;
+}
+
+span{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+#span-blog{
+    text-align: center;
+    margin: 2rem;
 }
 
 .header{
@@ -220,20 +250,17 @@ header .navbar a:hover{
 }
 
 /** Hero content and image styling **/
-.hero-section{
+ .hero-section{
     background-image: url(../images/hero2.jpg);
     background-repeat: no-repeat;
     min-height: 100vh;
-    display: flex;
-    align-items: center;
     background-position: center;
     text-align: justify;
 }
 
-.hero-content{
-    max-width: 60rem;
-}
 
+
+/*
 .hero-content ul h1{
     font-size: 4rem;
     margin-top: 8rem;
@@ -243,15 +270,15 @@ header .navbar a:hover{
     font-size: 1.7rem;
     padding: 0.6rem;
     list-style-type: disc;
-}
+} */
 
 
 form input{
-    border-radius:  2px;
-    height: 18px;
+   
+    height: 24px;
     margin-top: 2.3rem;
-    color: black;
-    font-size: 1.6rem;
+    color: var(--black);
+    
 }
 
 form button {
@@ -260,22 +287,16 @@ form button {
     padding: 0.2rem 1rem;
 }
 
-/* form button:hover,
-.architecture-btn a button:hover{
-    background-color: #13131a;
-} */
 
 /** Program section styling **/
 
-.program ul,
-.blog-container ul,
-.education-container ul,
+
 .architecture-container ul,
 .telecom-container ul{
-    width: 80%;
+    width: 85%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 4rem;
+    gap: 2rem;
     margin:  0 auto;
     padding: 0;
 }
@@ -292,6 +313,7 @@ form button {
     box-shadow: 2px 2px 2px rgb(190, 190, 190);
 }
 
+
 .program-item img{
     height: 50px;
     width: 50px;
@@ -305,14 +327,12 @@ form button {
     overflow: auto;
 }
 
-.program-content h2,
-.blog-caption h3{
+.program-content h2{
     font-size: 1.5rem;
     color: #13131a;
 }
 
-.program-item p,
-.blog-caption p{
+.program-item p{
     font-size: 1rem;
     text-align: justify;
     line-height: 1.8rem;
@@ -322,15 +342,20 @@ form button {
     padding: 1rem;
 }
 
+.telecom-options li,
+.telecom-options li b{
+    color:var(--black);
+    font-size: 1rem;
+}
+
 /** Start of blog container styling **/
 
-.blog-container,
-.architecture-container,
+/* .architecture-container,
 footer{
    
     color: rgb(220, 220, 220);
-    padding-bottom: 2rem;
-}
+    padding-bottom: 12rem;
+} */
 
 #recent-post-txt,
 #edu-txt,
@@ -339,7 +364,7 @@ footer{
     text-transform: capitalize;
     padding: 0.5rem;
 }
-
+/* 
 .blog-post-container{
     height: 450px;
     overflow: scroll;
@@ -366,13 +391,13 @@ footer{
 
 .blog-caption h3{
     font-size: 0.8rem;
-}
+}  */
 
 /** End of blog container styling **/
 
 /** start of the education container **/
 
-.edu-content{
+ .edu-content{
     height: 150px;
 }
 
@@ -388,7 +413,8 @@ footer{
 
 #edu-txt{
     margin: 0;
-}
+} 
+
 /** End of the education container **/
 
 /** start of architecture section styling **/
@@ -418,10 +444,10 @@ footer{
 
 /** start of styling the telecom container **/
 
-.telecom-list li,
+/* .telecom-list li,
 .telecom-list li b{
     color: #13131a;
-}
+} */
 
 .download-btn{
     padding: 0;
@@ -448,6 +474,11 @@ footer{
     text-align: justify;
     text-transform: lowercase;
     padding-left: 1.2rem;
+}
+
+.footer ul li{
+    margin: 0;
+    padding: 0;
 }
 
 /* .footer .share a{
