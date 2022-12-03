@@ -63,6 +63,15 @@
         <a href="https://mega.nz/folder/ovRjCYCI#Nv9THAZz9-QeHThb7Q6kOw">Download the full course</a>
         <p>Kindly keep it properly and make sure to download and backup as soon as possible</p>
     </div>
+
+    <div class="other-blog" >
+
+<a href="http://" target="_blank" rel="noopener noreferrer">
+     <button>Previous</button>
+ </a> 
+<a href="http://" target="_blank" rel="noopener noreferrer">
+     <button id= "next">Next</button>
+ </a>
     </div>
 
 </main>
