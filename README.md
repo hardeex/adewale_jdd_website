@@ -1,1 +1,1 @@
-designing JDD Webmaster Limited website
+JDD Webmaster LTD website
