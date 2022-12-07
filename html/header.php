@@ -19,6 +19,11 @@
      <!--linking the favicon-->
      <link rel="shortcut icon" href="../images/code-optimisation_favicon.png" type="image/x-icon">
 
+     <!-- integrating paystack payment links-->
+     <script src="https://js.paystack.co/v1/inline.js" defer></script>
+     <!-- <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" 
+    crossorigin="anonymous" defer></script> -->
+
 </head>
 <body>
 

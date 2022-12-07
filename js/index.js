@@ -8,6 +8,13 @@ let searchForm = document.querySelector('.search-form');
 // accessing the cart item
 let cartItem = document.querySelector('.cart-items-container');
 
+let paystackForm = document.querySelector('.paystackForm');
+let btnDownloadCourse = document.querySelector('.downloadCourse');
+
+function showPaystackForm(){
+    paystackForm.style.display = "block";
+}
+btnDownloadCourse.addEventListener('click', showPaystackForm);
 
 //THE MENU FUNCTION 
 document.querySelector('#menu-btn').onclick = () =>{
@@ -47,3 +54,11 @@ window.onscroll = () =>{
     // hide the cart items
     cartItem.classList.remove('active');
 }
+
+// btnDownloadCourse.querySelector('.downloadCourse').onclick = () =>{
+//     paystackForm.style.display = "block";
+// }
+
+// document.querySelector('.downloadCourse').onclick = () =>{
+//     paystackForm.style.display = "block";
+// }

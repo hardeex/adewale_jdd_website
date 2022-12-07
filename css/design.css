@@ -1,0 +1,14 @@
+body{
+    margin-top: 12rem;
+}
+
+
+#web2-design-img,
+#web3-design-img{
+    width: 100%;
+    height: 100%
+}
+
+#web1-design-img{
+    height: 100%;
+}

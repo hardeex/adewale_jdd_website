@@ -378,15 +378,6 @@ One of the major bottlenecks that make both confused... </p>
         </li>
         <!-- End of architecture video container-->
 
-        <!--start of the images containers-->
-        <li>
-          <div class="architect-images-container">
-            <a href="../Architecture/images/198ddefcb60ba7bb0984b030012e9d72.jpg" target="_blank">
-              <img src="../Architecture/images/198ddefcb60ba7bb0984b030012e9d72.jpg" alt="A duple architectural image">
-            </a>
-      </div>
-        </li>
-              <!--End of the images containers-->
 
               <!--start of the images containers-->
         <li>
@@ -418,31 +409,12 @@ One of the major bottlenecks that make both confused... </p>
         </li>
               <!--End of the images containers-->
 
-               <!--start of the images containers-->
-        <li>
-          <div class="architect-images-container">
-            <a href="../Architecture/images/COMPTEPORARY DESIGN PHOTOSHOP.jpg" target="_blank">
-              <img src="../Architecture/images/COMPTEPORARY DESIGN PHOTOSHOP.jpg" alt="An architectural image" >
-            </a>
-      </div>
-        </li>
-              <!--End of the images containers-->
 
                <!--start of the images containers-->
         <li>
           <div class="architect-images-container">
             <a href="../Architecture/images/Enscape_2022-10-12-02-03-43.jpg" target="_blank">
               <img src="../Architecture/images/Enscape_2022-10-12-02-03-43.jpg" alt="An architectural image">
-            </a>
-      </div>
-        </li>
-              <!--End of the images containers-->
-
-               <!--start of the images containers-->
-        <li>
-          <div class="architect-images-container">
-            <a href="../Architecture/images/Enscape_2022-10-23-07-26-03.jpg" target="_blank">
-              <img src="../Architecture/images/Enscape_2022-10-23-07-26-03.jpg" alt="An architectural image">
             </a>
       </div>
         </li>
@@ -458,15 +430,6 @@ One of the major bottlenecks that make both confused... </p>
         </li>
               <!--End of the images containers-->
 
-               <!--start of the images containers-->
-        <li>
-          <div class="architect-images-container">
-            <a href="../Architecture/images/Enscape_2022-10-24-06-03-31.jpg" target="_blank">
-              <img src="../Architecture/images/Enscape_2022-10-24-06-03-31.jpg" alt="An architectural image">
-            </a>
-      </div>
-        </li>
-              <!--End of the images containers-->
 
                <!--start of the images containers-->
         <li>
@@ -478,25 +441,7 @@ One of the major bottlenecks that make both confused... </p>
         </li>
               <!--End of the images containers-->
 
-               <!--start of the images containers-->
-        <li>
-          <div class="architect-images-container">
-            <a href="../Architecture/images/KPTV RADIO STATION.jpg" target="_blank">
-              <img src="../Architecture/images/KPTV RADIO STATION.jpg" alt="A radio studio interior design">
-            </a>
-      </div>
-        </li>
-              <!--End of the images containers-->
-
-               <!--start of the images containers-->
-        <li>
-          <div class="architect-images-container">
-            <a href="../Architecture/images/room dining and kitchen layout 6.effectsResult.jpg" target="_blank">
-              <img src="../Architecture/images/living room dining and kitchen layout 6.effectsResult.jpg" alt="A dinning room interior design">
-            </a>
-      </div>
-        </li>
-              <!--End of the images containers-->
+        
 
                <!--start of the images containers-->
         <li>
@@ -521,11 +466,11 @@ One of the major bottlenecks that make both confused... </p>
       </ul>
     
       <div class="architecture-btn">
-        <a href="" target="_blank">
+        <a href="../html/design.php" target="_blank">
          <button>Explore More...</button>
        </a>
        
-       <a href="" target="_blank">
+       <a href="../html/support.php" target="_blank">
           <button>Contact Us</button>
       </a>  
        </div>

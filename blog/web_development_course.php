@@ -19,6 +19,9 @@
 
      <!--linking the favicon-->
      <link rel="shortcut icon" href="../images/code-optimisation_favicon.png" type="image/x-icon">
+
+      <!-- integrating paystack payment links-->
+      <script src="https://js.paystack.co/v1/inline.js" defer></script>
 </head>
 <body>
 
@@ -59,8 +62,10 @@
     </p>
 
      <div class="download-link">
-        <h2>Here is the Drive link </h2>
-        <a href="https://mega.nz/folder/ovRjCYCI#Nv9THAZz9-QeHThb7Q6kOw">Download the full course</a>
+        <!-- <h2>Here is the Drive link </h2> -->
+        <!-- <a href="https://mega.nz/folder/ovRjCYCI#Nv9THAZz9-QeHThb7Q6kOw" class="downloadCourse" >Download the full course  </a> -->
+         <a href="../html/paystackForm.php"  >Download the full course  </a>
+        <!-- <button  class="downloadCourse" >download the full course </button> -->
         <p>Kindly keep it properly and make sure to download and backup as soon as possible</p>
     </div>
 
@@ -74,6 +79,8 @@
  </a>
     </div>
 
+   
+  
 </main>
 
 <footer>
