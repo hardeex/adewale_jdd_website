@@ -1,6 +1,5 @@
-//TODO: implement ecommerce and payment gateway 
-
 // DECLARING THE VARIABLES
+
 // accessing the nav navigation bar
 let navbar = document.querySelector('.navbar');
 // accessing thr search form
@@ -8,13 +7,8 @@ let searchForm = document.querySelector('.search-form');
 // accessing the cart item
 let cartItem = document.querySelector('.cart-items-container');
 
-let paystackForm = document.querySelector('.paystackForm');
-let btnDownloadCourse = document.querySelector('.downloadCourse');
-
-function showPaystackForm(){
-    paystackForm.style.display = "block";
-}
-btnDownloadCourse.addEventListener('click', showPaystackForm);
+//accessing the research work and report from the index page
+let researchWork = document.getElementById('research-work');
 
 //THE MENU FUNCTION 
 document.querySelector('#menu-btn').onclick = () =>{
@@ -55,10 +49,16 @@ window.onscroll = () =>{
     cartItem.classList.remove('active');
 }
 
-// btnDownloadCourse.querySelector('.downloadCourse').onclick = () =>{
-//     paystackForm.style.display = "block";
+// document.getElementById('research-work').onclick = () =>{
+//     alert("We can help you on your project");
 // }
 
-// document.querySelector('.downloadCourse').onclick = () =>{
-//     paystackForm.style.display = "block";
+// researchWork.onclick = () =>{
+//     alert("We can help you on your project");
 // }
+
+function researchProject(){
+    alert("Let's help make your research or project work a success. We help build better and error-free research work. You can contact us via the support page or call/chat our customer care, on 08180299378");
+}
+
+researchWork.addEventListener('click', researchProject);

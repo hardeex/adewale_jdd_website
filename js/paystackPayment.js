@@ -1,3 +1,6 @@
+
+let check = document.querySelector('.check');
+
 const paymentForm = document.getElementById('paymentForm');
 paymentForm.addEventListener("submit", payWithPaystack, false);
 function payWithPaystack(e) {
@@ -18,17 +21,23 @@ function payWithPaystack(e) {
 //         curl https://api.paystack.co/transaction/verify/:reference
 // -H "Authorization: Bearer YOUR_SECRET_KEY"
 // -X GET
+// check.href = "https://mega.nz/folder/ovRjCYCI#Nv9THAZz9-QeHThb7Q6kOw";
 
-$.ajax({
-    url: 'https://www.yoururl.com/verify_transaction?reference='+ response.reference,
-    method: 'get',
-    success: function (response) {
-      // the transaction status is in response.data.status
-    }
-});
+// $.ajax({
+//     url: 'https://www.jdd.com.ng/verify_transaction?reference='+ response.reference,
+//     method: 'get',
+//     success: function (response) {
+//       // the transaction status is in response.data.status
+     
+//       check.href = "https://mega.nz/folder/ovRjCYCI#Nv9THAZz9-QeHThb7Q6kOw";
+
+//     }
+// });
     
-      let message = 'Payment complete! Reference: ' + response.reference;
-      alert(message);
+      // let message = 'Payment complete! Reference: ' + response.reference;
+      // alert(message);
+      alert('Please, send an evidence of payment to the number 08180299378 to receive the link to the course');
+      check.href = "https://mega.nz/folder/ovRjCYCI#Nv9THAZz9-QeHThb7Q6kOw";
     }
   });
 

@@ -26,8 +26,9 @@
 <footer class="footer">
       <section>
         <p>
-          our primary aim is to provide an avenue to acquire information technology skills and set of skills set that will
-          enable you to solve man's problems. The idea is to be financially stable while making human tasks easier.
+          Our primary aim is to provide an avenue to acquire information technology skills and set of skills set that will
+          enable you to solve man's problems. The idea is to be financially stable 
+          while making human tasks easier.
         </p>
 </section>
 
@@ -35,28 +36,28 @@
         <div>
           <ul>
             <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer"> Home</a>
+              <a href="../html/index.php" target="_blank" rel="noopener noreferrer"> Home</a>
             </li>
   
             <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">Blog</a>
+              <a href="../html/blog.php" target="_blank" rel="noopener noreferrer">Blog</a>
             </li>
   
             <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">Support</a>
+              <a href="../html/support.php" target="_blank" rel="noopener noreferrer">Support</a>
             </li>
   
             <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">Telecom</a>
+              <a href="../html/telecom.php" target="_blank" rel="noopener noreferrer">Telecom</a>
             </li>
   
             <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">Architectural Designs</a>
+              <a href="../html/design.php" target="_blank" rel="noopener noreferrer">Architectural Designs</a>
             </li>
   
-            <li>
+            <!-- <li>
               <a href="http://" target="_blank" rel="noopener noreferrer">Real Estate</a>
-            </li>
+            </li> -->
 
           </ul>
         </div>
@@ -66,30 +67,30 @@
         <div>
 
             <ul>
-            <li>
+            <!-- <li>
              
               <a href="http://" target="_blank" rel="noopener noreferrer">Support</a>
+            </li> -->
+  
+            <li>
+              <a href="https://github.com/hardeex" target="_blank" rel="noopener noreferrer">Github</a>
             </li>
   
             <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">Github</a>
-            </li>
-  
-            <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">Youtube</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Youtube</a>
             </li>
   
            <hr>
   
-            <li>
+            <!-- <li>
               <a href="http://" target="_blank" rel="noopener noreferrer">Music</a>
-            </li>
+            </li> -->
             <li>
-              <a href="" target="_blank">Football</a>
+              <a href="https://scores808.com" target="_blank">Stream Live Match</a>
             </li>
-            <li>
+            <!-- <li>
               <a href="http://" target="_blank" rel="noopener noreferrer">Finance</a>
-            </li>
+            </li> -->
           </ul>
         </div>
         </section>
@@ -99,7 +100,7 @@
               <a href="#" class="fab fa-facebook-f"></a>
               <a href="#" class="fab fa-twitter"></a>
               <a href="#" class="fab fa-instagram"></a>
-              <a href="#" class="fab fa-linkedin"></a>
+              <a href="http://www.linkedin.com/in/jamiu-adewale-yusuf" class="fab fa-linkedin"></a>
               <a href="#" class="fab fa-pinterest"></a>
           </div>
            

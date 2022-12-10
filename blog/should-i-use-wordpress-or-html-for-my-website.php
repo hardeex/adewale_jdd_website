@@ -150,10 +150,10 @@ than WordPress</li>
 
     <div class="other-blog" >
 
-       <a href="http://" target="_blank" rel="noopener noreferrer">
+       <a href="../blog/web_development_course.php"  rel="noopener noreferrer">
             <button>Previous</button>
         </a> 
-    <a href="http://" target="_blank" rel="noopener noreferrer">
+    <a href="../blog/why-should-my-business-have-a-website.php" rel="noopener noreferrer">
             <button id= "next">Next</button>
         </a>
 

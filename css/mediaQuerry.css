@@ -33,11 +33,15 @@
     .education-container ul,
     .architecture-container ul,
     .telecom-container ul,
+    .section ul,
     .footer{
         /* display: inline-block; */
         grid-template-columns: 1fr 1fr;
     }
 
+    .blog-text{
+        width: 65rem;
+    }
 }
 
 /** styling for a TABLET device **/
@@ -93,8 +97,13 @@
     .education-container ul,
     .architecture-container ul,
     .telecom-container ul,
+    .section ul,
     .footer{
         grid-template-columns: 1fr 1fr;
+    }
+
+    .blog-text{
+        width: 60rem;
     }
 
 }
@@ -113,10 +122,16 @@
     .education-container ul,
     .architecture-container ul,
     .telecom-container ul,
+    .section ul,
     .footer{
       grid-template-columns: 100%;
     }
+
+    .blog-text{
+        width: 40rem;
+    }
 }
+
 
 
 
@@ -131,8 +146,13 @@
     .education-container ul,
     .architecture-container ul,
     .telecom-container ul,
+    .section ul,
     .footer{
       grid-template-columns: 100%;
+    }
+
+    .blog-text{
+        width: 40rem;
     }
 
 } 

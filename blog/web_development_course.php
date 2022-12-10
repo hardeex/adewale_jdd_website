@@ -64,17 +64,18 @@
      <div class="download-link">
         <!-- <h2>Here is the Drive link </h2> -->
         <!-- <a href="https://mega.nz/folder/ovRjCYCI#Nv9THAZz9-QeHThb7Q6kOw" class="downloadCourse" >Download the full course  </a> -->
-         <a href="../html/paystackForm.php"  >Download the full course  </a>
+         <!-- <a href="../html/paystackForm.php" class="check" >Download the full course  </a> -->
+         <a href="../html/whatsAppForm.php" target="_blank" rel="noopener noreferrer">Download course</a>
         <!-- <button  class="downloadCourse" >download the full course </button> -->
         <p>Kindly keep it properly and make sure to download and backup as soon as possible</p>
     </div>
 
     <div class="other-blog" >
 
-<a href="http://" target="_blank" rel="noopener noreferrer">
+<a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" rel="noopener noreferrer">
      <button>Previous</button>
  </a> 
-<a href="http://" target="_blank" rel="noopener noreferrer">
+<a href="../blog/why-should-my-business-have-a-website.php" rel="noopener noreferrer">
      <button id= "next">Next</button>
  </a>
     </div>

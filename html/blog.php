@@ -43,7 +43,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="../images/why-should-my-biz-have-website.webp" alt="">
+                <img src="../images/why-should-my-biz-have-website.webp" alt="busness website image">
             </div>
             <div class="content">
                 <a href="../blog/why-should-my-business-have-a-website.php" class="title">Why should my business have a website?</a>
@@ -56,7 +56,7 @@ One of the major bottlenecks that make both confused... </p>
         </div>
         <div class="box">
             <div class="image">
-                <img src="../images/analytics.png" alt="">
+                <img src="../images/analytics.png" alt="analytics image">
             </div>
             <div class="content">
                 <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" class="title">Is wordpress or html or css or javascript best website?</a>
@@ -83,11 +83,11 @@ One of the major bottlenecks that make both confused... </p>
 
         <div class="box">
             <div class="image">
-                <img src="../images/web-programming.png" alt="">
+                <img src="../images/web-programming.png" alt="programming image">
             </div>
             <div class="content">
                 <a href="../blog/web_development_course.php" class="title">How do i learn web development?</a>
-                <span>by Adewale / 3rd December, 2022</span>
+                <span>by Adewale / 10th December, 2022</span>
  <p> The 100 days web development premium course contains 100 HD videos training that will guide you to become a frontend
         and backend web developer . Thus, making you a full stack web developer. <br> 
         This is a huge course, packed with content and it's the web development bootcamp I would have loved to have when I learned
@@ -98,11 +98,11 @@ One of the major bottlenecks that make both confused... </p>
 
         <div class="box">
             <div class="image">
-                <img src="../images/analytics.png" alt="">
+                <img src="../images/analytics.png" alt="analytic image">
             </div>
             <div class="content">
                 <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" class="title">should i use html/css or wordpress for my website?</a>
-                <span>by admin / 21st may, 2021</span>
+                <span>by admin / 21st December, 2022</span>
                 <p>Your business website is the extension of a business card. Constantly reminding your customers and creating a new list of 
 customers is not something a business owner wants to joke it. In the modern business environment, making a mobile-friendly online presence is so important that the impact it has on 
 businesses cannot be comprehended. This article of about helping business owners and developers in deciding the best platform to 
@@ -120,7 +120,7 @@ build the website you are thinking of.</p>
 
 
 <!--- blog section start-->
-<section class="blogs" id="blogs">
+<!-- <section class="blogs" id="blogs">
 
     <h1 class="heading"> <span>scholarship</span> blog</h1>
 
@@ -128,13 +128,13 @@ build the website you are thinking of.</p>
 
     </div>
 
-</section>
+</section> -->
 
 <!-- blogs section ends -->
 
 
 <!--- blog section start-->
-<section class="blogs" id="blogs">
+<!-- <section class="blogs" id="blogs">
 
     <h1 class="heading"> git <span>blog</span></h1>
 
@@ -142,12 +142,12 @@ build the website you are thinking of.</p>
 
     </div>
 
-</section>
+</section> -->
 
 <!-- blogs section ends -->
 
 <!--- blog section start-->
-<section class="blogs" id="blogs">
+<!-- <section class="blogs" id="blogs">
 
     <h1 class="heading"><span>mobile app dev </span> blog</h1>
 
@@ -155,7 +155,7 @@ build the website you are thinking of.</p>
 
     </div>
 
-</section>
+</section> -->
 
 <!-- blogs section ends -->
 

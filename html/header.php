@@ -12,6 +12,8 @@
 
     <!-- linking the javascript-->
     <script src="../js/index.js" defer></script>
+     <!-- integrating paystack payment links-->
+     <script src="https://js.paystack.co/v1/inline.js" defer></script>
 
      <!-- font awesome cdn link  -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">

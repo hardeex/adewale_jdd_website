@@ -13,7 +13,9 @@
 
     <!-- linking the javascript-->
     <script src="../js/index.js" defer></script>
-
+     <!-- integrating paystack payment links-->
+     <script src="https://js.paystack.co/v1/inline.js" defer></script>
+     
      <!-- font awesome cdn link  -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
@@ -198,16 +200,17 @@ on ways to use your website or web app or mobile app as a cash inflow for your b
 
      <div class="download-link">
         <h2>TO learn full stack web development and become a master of it, kindly click on the link below </h2>
-        <a href="https://mega.nz/folder/ovRjCYCI#Nv9THAZz9-QeHThb7Q6kOw">Download the full course</a>
+        <!-- <a href="https://mega.nz/folder/ovRjCYCI#Nv9THAZz9-QeHThb7Q6kOw">Download the full course</a> -->
+        <a href="../html/paystackForm.php"  >Download the full course  </a>
         <p>Kindly keep it properly and make sure to download and backup as soon as possible</p>
     </div>
 
     <div class="other-blog" >
 
-<a href="http://" target="_blank" rel="noopener noreferrer">
+<a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" rel="noopener noreferrer">
      <button>Previous</button>
  </a> 
-<a href="http://" target="_blank" rel="noopener noreferrer">
+<a href="../blog/web_development_course.php" rel="noopener noreferrer">
      <button id= "next">Next</button>
  </a>
     </div>

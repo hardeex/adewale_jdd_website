@@ -63,7 +63,7 @@
       </div>
       <div class="cart-item">
           <span class="fas fa-times"></span>
-          <img src="../images/android.png" alt="android logo">
+          <img src="../images/android.png" alt="android image">
           <div class="content">
               <h3>Introduction to mobile applications development</h3>
               <div class="price">work in progress/-</div>
@@ -71,7 +71,7 @@
       </div>
       <div class="cart-item">
           <span class="fas fa-times"></span>
-          <img src="../images/why-should-my-biz-have-website.webp" alt="">
+          <img src="../images/why-should-my-biz-have-website.webp" alt="business website image">
           <div class="content">
               <h3>A poultry business detailed business plan</h3>
               <div class="price">work in progress/-</div>
@@ -79,7 +79,7 @@
       </div>
       <div class="cart-item">
           <span class="fas fa-times"></span>
-          <img src="../images/web-programming.png" alt="">
+          <img src="../images/web-programming.png" alt="programming image">
           <div class="content">
               <h3>Introduction to web development</h3>
               <div class="price">work in progress/-</div>
@@ -105,10 +105,12 @@
                   Programming Languages such as C, C++, Phython, SQL and much
                   more...
                 </li>
+                <li>Academic research work and CV</li>
                 <li>
                   Buy Internet data bundles, airtime and cable Tv subscriptions
                 </li>
                 <li>Fund your betting wallet</li>
+                <li>Registration of your business with CAC</li>
                 <li>Download educational materials</li>
     
                 <form action="" method="post">
@@ -158,7 +160,7 @@
             <!--start of the second program list-->
             <li>
               <div class="program-item">
-          <img src="../images/web-programming.png" alt="The world wide web (www) logo">
+          <img src="../images/web-programming.png" alt="The world wide web (www) image">
           
           <div class="program-content">
                <h2>100 Days Web Development Course</h2>
@@ -182,7 +184,7 @@
            <!--start of the third program list-->
            <li>
             <div class="program-item">
-          <img src="../images/wordpress.png" alt="The world wide web (www) logo">
+          <img src="../images/wordpress.png" alt="wordpress image">
           
           <div class="program-content">
              <h2>WordPress</h2>
@@ -205,7 +207,7 @@
           <!--start of the fourth program list-->
           <li>
             <div class="program-item">
-          <img src="../images/android.png" alt="The world wide web (www) logo">
+          <img src="../images/android.png" alt="android image">
           
           <div class="program-content">
              <h2>Android APP Development</h2>
@@ -237,7 +239,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="../images/why-should-my-biz-have-website.webp" alt="">
+            <img src="../images/why-should-my-biz-have-website.webp" alt="business website image">
         </div>
         <div class="content">
             <a href="../blog/why-should-my-business-have-a-website.php" class="title">Why should my business have a website?</a>
@@ -250,11 +252,11 @@ One of the major bottlenecks that make both confused... </p>
     </div>
     <div class="box">
         <div class="image">
-            <img src="../images/analytics.png" alt="">
+            <img src="../images/analytics.png" alt="analytics image">
         </div>
         <div class="content">
             <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" class="title">should i use wordpress or html for my website?</a>
-            <span>by admin / 21st may, 2021</span>
+            <span>by admin / 10th December, 2021</span>
             <p>How should the website look? That is the design appearance of the website. The client or the developer can either have a 
     rough sketch or better still use software like adobe illustrator for the design. This saves time in the long run and 
     prevents unnecessary costs. It gives general ideas of how the designs will look.</p>
@@ -264,11 +266,11 @@ One of the major bottlenecks that make both confused... </p>
 
     <div class="box">
             <div class="image">
-                <img src="../images/web-programming.png" alt="">
+                <img src="../images/web-programming.png" alt="web programming image">
             </div>
             <div class="content">
                 <a href="../blog/web_development_course.php" class="title">How do i learn web development?</a>
-                <span>by Adewale / 3rd December, 2022</span>
+                <span>by Adewale / 21st December, 2022</span>
  <p> The 100 days web development premium course contains 100 HD videos training that will guide you to become a frontend
         and backend web developer . Thus, making you a full stack web developer. <br> 
         This is a huge course, packed with content and it's the web development bootcamp I would have loved to have when I learned
@@ -292,7 +294,7 @@ One of the major bottlenecks that make both confused... </p>
     <!-- start of the list-->
     <li>
  <div class="edu-content">
-    <a href="">
+    <a href="../html/techScholarship.php">
       <p>
         Scholarships in the Tech industry 
       </p>
@@ -301,24 +303,24 @@ One of the major bottlenecks that make both confused... </p>
     </li>
     <!--End of the list -->
 
- <!-- start of the list-->
- <li>
-  <div class="edu-content">
-   
-     <a href="">
-       <p>
-        Scholarships for institutions
-       </p>
-     </a>
-   </div>
-     </li>
-     <!--End of the list -->
+    <!-- start of the list-->
+    <li>
+ <div class="edu-content">
+    <a href="https://chat.whatsapp.com/J1Uyifhz2HWAhzkf24MqDv" target="_blank">
+      <p>
+        Academic Scholarships
+      </p>
+    </a>
+  </div>
+    </li>
+    <!--End of the list -->
+  
 
       <!-- start of the list-->
     <li>
       <div class="edu-content">
-         <a href="">
-           <p>
+         <a href="#" id="research-work">
+           <p >
              Research work & Report
            </p>
          </a>
@@ -338,17 +340,6 @@ One of the major bottlenecks that make both confused... </p>
          </li>
          <!--End of the list -->
     
-         <!-- start of the list-->
-    <li>
-      <div class="edu-content">
-         <a href="">
-           <p>
-             scholarship whatsapp group
-           </p>
-         </a>
-       </div>
-         </li>
-         <!--End of the list -->
   </ul>
     </section>
 
@@ -479,15 +470,15 @@ One of the major bottlenecks that make both confused... </p>
 
     <section class="telecom-container">
   <h2><span>Telecom</span></h2>
-  <ul>
+  <ul>     
     
         <!--start of the first program list-->
         <li>
           <div class="program-item">
-      <img src="../Image/mtn.jpg" alt="MTN logo">
+      <img src="../images/mtn.jpg" alt="MTN logo">
   
       <div class="program-content">
-           <h2>MTN SME Data Subscriptions</h2>
+           <h2>SME Data Subscriptions</h2>
       <p >
         Start enjoying this very low rates for your internet browsing databundle.
         <ul class="telecom-options">
@@ -496,13 +487,13 @@ One of the major bottlenecks that make both confused... </p>
           <li>2GB @ NGN 550</li>
           <li>3GB @ NGN 800</li>
           <li>5GB @ NGN 1,300</li>
-          <li>10GB @ NGN 2,700</li>
+          <li>10GB @ NGN 2,550</li>
           <li> <b>And Much More...</b></li>
         </ul>
           
       </p>
       <div class="download-btn">
-         <a href="" target="_blank">
+         <a href="https://wa.me/message/VYNV4A27EEEPP1" target="_blank">
           <button>Buy Now</button>
       </a>
       </div>
@@ -515,7 +506,7 @@ One of the major bottlenecks that make both confused... </p>
      <!--start of the first program list-->
      <li>
       <div class="program-item">
-  <img src="../Image/bet.png" alt="Betting logo">
+  <img src="../images/bet.png" alt="Betting logo">
 
   <div class="program-content">
        <h2>Fund your betting wallet</h2>
@@ -537,7 +528,7 @@ One of the major bottlenecks that make both confused... </p>
     </ul>
   </p>
   <div class="download-btn">
-     <a href="" target="_blank">
+     <a href="https://wa.me/message/VYNV4A27EEEPP1" target="_blank">
       <button>Buy Now</button>
   </a>
   </div>
@@ -551,7 +542,7 @@ One of the major bottlenecks that make both confused... </p>
  <!--start of the first program list-->
  <li>
   <div class="program-item">
-<img src="../Image/tower.png" alt="tower image">
+<img src="../images/tower.png" alt="tower image">
 
 <div class="program-content">
    <h2>Pay your Electrcity bills</h2>
@@ -570,7 +561,7 @@ Pay your electricity bills online e.g. EKEDC, IKEDC, AEDC, PHEDC e.t.c.
 </ul>
 </p>
 <div class="download-btn">
- <a href="" target="_blank">
+ <a href="https://wa.me/message/VYNV4A27EEEPP1" target="_blank">
   <button>Buy Now</button>
 </a>
 </div>
@@ -583,7 +574,7 @@ Pay your electricity bills online e.g. EKEDC, IKEDC, AEDC, PHEDC e.t.c.
  <!--start of the first program list-->
  <li>
   <div class="program-item">
-<img src="../Image/cable-tv.png" alt="Cable TV image">
+<img src="../images/cable-tv.png" alt="Cable TV image">
 
 <div class="program-content">
    <h2>Cable TV Subscriptions</h2>
@@ -592,7 +583,7 @@ Instant recharge of DSTV, Gotv, Startimes etc. using
 SMARTCARD/IUC NUMBER and the registered number.
 </p>
 <div class="download-btn">
- <a href="" target="_blank">
+ <a href="https://wa.me/message/VYNV4A27EEEPP1" target="_blank">
   <button>Buy Now</button>
 </a>
 </div>
