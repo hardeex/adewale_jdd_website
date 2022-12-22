@@ -62,10 +62,11 @@
     </p>
 
      <div class="download-link">
-        <!-- <h2>Here is the Drive link </h2> -->
+        <h2>Here is the Drive link for just NGN 3,500.00 </h2>
         <!-- <a href="https://mega.nz/folder/ovRjCYCI#Nv9THAZz9-QeHThb7Q6kOw" class="downloadCourse" >Download the full course  </a> -->
          <!-- <a href="../html/paystackForm.php" class="check" >Download the full course  </a> -->
-         <a href="../html/whatsAppForm.php" target="_blank" rel="noopener noreferrer">Download course</a>
+         <!-- <a href="../html/whatsAppForm.php" target="_blank" rel="noopener noreferrer">Download course</a> -->
+         <a href="../html/paystackForm.php" target="_blank" rel="noopener noreferrer">Download course</a>
         <!-- <button  class="downloadCourse" >download the full course </button> -->
         <p>Kindly keep it properly and make sure to download and backup as soon as possible</p>
     </div>

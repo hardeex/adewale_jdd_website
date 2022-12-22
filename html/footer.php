@@ -67,10 +67,10 @@
         <div>
 
             <ul>
-            <!-- <li>
+            <li>
              
-              <a href="http://" target="_blank" rel="noopener noreferrer">Support</a>
-            </li> -->
+            <a href="mailto:webmasterjdd@gmail.com">Send email</a>
+            </li>
   
             <li>
               <a href="https://github.com/hardeex" target="_blank" rel="noopener noreferrer">Github</a>
@@ -80,14 +80,14 @@
               <a href="#" target="_blank" rel="noopener noreferrer">Youtube</a>
             </li>
   
-           <hr>
+           
   
             <!-- <li>
               <a href="http://" target="_blank" rel="noopener noreferrer">Music</a>
             </li> -->
-            <li>
+            <!-- <li>
               <a href="https://scores808.com" target="_blank">Stream Live Match</a>
-            </li>
+            </li> -->
             <!-- <li>
               <a href="http://" target="_blank" rel="noopener noreferrer">Finance</a>
             </li> -->

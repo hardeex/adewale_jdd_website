@@ -34,8 +34,9 @@
     
     <div class="text-payment">
         <h1>web development premium course payment</h1>
- <p>kindly, make a payment of NGN3,500 using this <a href="../html/paystackForm.php">LINK</a> 
-    and send the evidence of payment to <a href="https://wa.me/qr/7XWYMWFDCDCAB1" target="_blank" rel="noopener noreferrer">+2348-1484-13982</a> or <a href="https://wa.me/message/VYNV4A27EEEPP1">+234818-029-9378</a> 
+ <p>kindly, make payment using this <a href="../html/paystackForm.php">LINK</a> 
+    and send the evidence of payment to <a href="https://wa.me/qr/7XWYMWFDCDCAB1" target="_blank" rel="noopener noreferrer">+2348-1484-13982</a> or 
+    <a href="https://wa.me/message/VYNV4A27EEEPP1">+234818-029-9378</a> 
     in order to receive the <a href="../blog/web_development_course.php">course link</a>.
     </p>
     <h3>for enquiries or complaint, contact us via <a href="../html/support.php" target="_blank">SUPPORT</a> </h3>

@@ -42,7 +42,7 @@
     <a href="../html/blog.php">blog</a>
     <a href="../html/design.php">designs</a>
     <a href="../html/support.php">support</a>
-    <a href="../html/telecom.php">telecom</a>
+    <!-- <a href="../html/telecom.php">telecom</a> -->
 </nav>
 
 <div class="icons">
@@ -58,6 +58,16 @@
 
 <!--adding the cart item-->
 <div class="cart-items-container">
+
+<div class="cart-item">
+      <span class="fas fa-times"></span>
+      <img src="../images/web-programming.png" alt="">
+      <div class="content">
+          <h3><a href="../blog/web_development_course.php" class="cart-title" >Full-Stack Web Development Course </a> </h3>
+          <div class="price">NGN 3,500.00</div>
+      </div>
+  </div>
+
   <div class="cart-item">
       <span class="fas fa-times"></span>
       <img src="../images/wordpress.png" alt="wordpress logo (cart item)">
@@ -66,6 +76,7 @@
           <div class="price">work in progress/-</div>
       </div>
   </div>
+
   <div class="cart-item">
       <span class="fas fa-times"></span>
       <img src="../images/android.png" alt="android logo">
@@ -74,6 +85,7 @@
           <div class="price">work in progress/-</div>
       </div>
   </div>
+
   <div class="cart-item">
       <span class="fas fa-times"></span>
       <img src="../images/why-should-my-biz-have-website.webp" alt="">
@@ -82,14 +94,7 @@
           <div class="price">work in progress/-</div>
       </div>
   </div>
-  <div class="cart-item">
-      <span class="fas fa-times"></span>
-      <img src="../images/web-programming.png" alt="">
-      <div class="content">
-          <h3>Introduction to web development</h3>
-          <div class="price">work in progress/-</div>
-      </div>
-  </div>
+  
   <a href="#" class="btn">checkout now</a>
 </div>
 

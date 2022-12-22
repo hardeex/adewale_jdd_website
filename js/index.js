@@ -58,7 +58,7 @@ window.onscroll = () =>{
 // }
 
 function researchProject(){
-    alert("Let's help make your research or project work a success. We help build better and error-free research work. You can contact us via the support page or call/chat our customer care, on 08180299378");
+    alert("Let's help make your research or project work a success. We help build better and error-free research work. You can contact us via the support page or chat our customer care, on 08180299378");
 }
 
 researchWork.addEventListener('click', researchProject);

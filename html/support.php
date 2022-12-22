@@ -71,7 +71,7 @@
             <!--- adding an auto response message-->
             <input type="hidden" name="_autoresponse" value="Your message has been received. We'll get back to you shortly....">
             </div>
-            <input type="submit" value="contact" id="btn-submit">
+            <input type="submit" value="Send Message" id="btn-submit">
             <!-- <input type="submit" value="contact now " class="btn"> -->
         </form>
 

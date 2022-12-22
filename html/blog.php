@@ -54,17 +54,35 @@ One of the major bottlenecks that make both confused... </p>
                 <a href="../blog/why-should-my-business-have-a-website.php" class="btn">read more</a>
             </div>
         </div>
+
+
         <div class="box">
             <div class="image">
                 <img src="../images/analytics.png" alt="analytics image">
             </div>
             <div class="content">
-                <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" class="title">Is wordpress or html or css or javascript best website?</a>
-                <span>by admin / 21st may, 2021</span>
+                <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" class="title">wordpress or html for my business website?</a>
+                <span>by Adewale / 21st may, 2021</span>
                 <p>How should the website look? That is the design appearance of the website. The client or the developer can either have a 
         rough sketch or better still use software like adobe illustrator for the design. This saves time in the long run and 
         prevents unnecessary costs. It gives general ideas of how the designs will look.</p>
                 <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://s3.amazonaws.com/resume.cdn/articles/posts/dc9c6a16f85d5db665059e36b0a2af10-9241196_atsinfographic.png" alt="resume/CV image">
+            </div>
+            <div class="content">
+                <a href="../blog/writing-ats-resume.php" class="title">How to write a good Resume or CV?</a>
+                <span>by Adewale / December 17th, 2022</span>
+                <p>With the drastic change in Technological Development , it is no news that companies and employment
+                     agencies now use software like the Applicant Tracking System (ATS) to scan through millions of resumes 
+                     and select the best from the list. Many applicants complained about never being called for an interview 
+                     despite submitting several resumes.The truth is that each resume probably didn't pass through the Applicant 
+                     Tracking System (ATS).</p>
+                <a href="../blog/writing-ats-resume.php" class="btn">read more</a>
             </div>
         </div>
 
@@ -102,7 +120,7 @@ One of the major bottlenecks that make both confused... </p>
             </div>
             <div class="content">
                 <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" class="title">should i use html/css or wordpress for my website?</a>
-                <span>by admin / 21st December, 2022</span>
+                <span>by Adewale / 21st December, 2022</span>
                 <p>Your business website is the extension of a business card. Constantly reminding your customers and creating a new list of 
 customers is not something a business owner wants to joke it. In the modern business environment, making a mobile-friendly online presence is so important that the impact it has on 
 businesses cannot be comprehended. This article of about helping business owners and developers in deciding the best platform to 
@@ -120,17 +138,44 @@ build the website you are thinking of.</p>
 
 
 <!--- blog section start-->
-<!-- <section class="blogs" id="blogs">
+<section class="blogs" id="blogs">
 
-    <h1 class="heading"> <span>scholarship</span> blog</h1>
+    <h1 class="heading">  <span>scholarship </span>blog  </h1>
 
-   
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="../images/graduation.png" alt="scholarship image">
+            </div>
+            <div class="content">
+                <a href="../html/techScholarship.php" class="title">free programming courses scholarship</a>
+                <span>by Adewale / 9th December, 2022</span>
+            <p> Get access to free programming, web development, software development and training scholarships</p>
+                <a href="../html/techScholarship.php" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="../images/graduation.png" alt="scholarship image">
+            </div>
+            <div class="content">
+                <a href="https://chat.whatsapp.com/J1Uyifhz2HWAhzkf24MqDv" class="title">academic scholarship links or update?</a>
+                <span>by Adewale / 9th December, 2022</span>
+                <p>Join our whatsaApp group chat to get access to scholarship links, and tips</p>
+                <a href="https://chat.whatsapp.com/J1Uyifhz2HWAhzkf24MqDv" class="btn">read more</a>
+            </div>
+        </div>
+
 
     </div>
 
-</section> -->
+</section>
 
 <!-- blogs section ends -->
+
+
 
 
 <!--- blog section start-->

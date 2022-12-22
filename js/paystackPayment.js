@@ -34,9 +34,9 @@ function payWithPaystack(e) {
 //     }
 // });
     
-      // let message = 'Payment complete! Reference: ' + response.reference;
-      // alert(message);
-      alert('Please, send an evidence of payment to the number 08180299378 to receive the link to the course');
+      let message = 'Payment complete! Reference: <br> You will receive the course link in your email shortly... Thanks' + response.reference;
+      alert(message);
+      // alert('Please, send an evidence of payment to the number 08180299378 to receive the link to the course');
       check.href = "https://mega.nz/folder/ovRjCYCI#Nv9THAZz9-QeHThb7Q6kOw";
     }
   });

@@ -73,6 +73,7 @@ section ul li{
     font-size: 2rem;
     padding-top: 2.3rem;
     /* list-style-type: square; */
+   
 }
 
 hr{
@@ -83,7 +84,8 @@ li{
     list-style-type: none;
 }
 
-a button{
+a button,
+.send-mail{
     background-color: var(--main-color);
     border-radius: 6px;
     padding: 0.4rem 0.8rem;
@@ -98,7 +100,8 @@ a:hover{
 }
 
 a button:hover,
-.architecture-btn a button:hover{
+.architecture-btn a button:hover,
+.send-mail:hover{
     background-color: #13131a;
     letter-spacing: 0.3rem;
 }
@@ -237,6 +240,14 @@ header .navbar a:hover{
     font-size: 1.5rem;
     color:var(--black);
     padding-bottom: .5rem;
+}
+
+.content h3 .cart-title{
+    color: var(--black)
+}
+
+.content h3 .cart-title:hover{
+    color: var(--main-color);
 }
 
 .header .cart-items-container .cart-item .content .price{
@@ -481,6 +492,7 @@ footer{
 .footer ul li{
     margin: 0;
     padding: 0;
+    /* list-style-type: none; */
 }
 
 /* .footer .share a{

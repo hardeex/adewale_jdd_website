@@ -207,7 +207,7 @@ on ways to use your website or web app or mobile app as a cash inflow for your b
 
     <div class="other-blog" >
 
-<a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" rel="noopener noreferrer">
+<a href="../blog/how-to-host-wordpress-website-locally.php" rel="noopener noreferrer">
      <button>Previous</button>
  </a> 
 <a href="../blog/web_development_course.php" rel="noopener noreferrer">

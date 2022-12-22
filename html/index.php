@@ -26,68 +26,9 @@
 
     <!-- header section starts  -->
 
-<header class="header">
-
-    <a href="../html/index.php" class="logo">
-        <img src="../images/logo.png" alt="the website logo">
-    </a>
-
-    <nav class="navbar">
-        <a href="../html/index.php">home</a>
-        <a href="../html/blog.php">blog</a>
-        <a href="../html/design.php">designs</a>
-        <a href="../html/support.php">support</a>
-        <a href="../html/telecom.php">telecom</a>
-    </nav>
-
-    <div class="icons">
-        <div class="fas fa-search" id="search-btn"></div>
-        <div class="fas fa-shopping-cart" id="cart-btn"></div>
-        <div class="fas fa-bars" id="menu-btn"></div>
-    </div>
-
-    <div class="search-form">
-        <input type="search" id="search-box" placeholder="search here...">
-        <label for="search-box" class="fas fa-search"></label>
-    </div>
-
-    <!--adding the cart item-->
-    <div class="cart-items-container">
-      <div class="cart-item">
-          <span class="fas fa-times"></span>
-          <img src="../images/wordpress.png" alt="wordpress logo (cart item)">
-          <div class="content">
-              <h3>Learn WordPress Web development</h3>
-              <div class="price">work in progress/-</div>
-          </div>
-      </div>
-      <div class="cart-item">
-          <span class="fas fa-times"></span>
-          <img src="../images/android.png" alt="android image">
-          <div class="content">
-              <h3>Introduction to mobile applications development</h3>
-              <div class="price">work in progress/-</div>
-          </div>
-      </div>
-      <div class="cart-item">
-          <span class="fas fa-times"></span>
-          <img src="../images/why-should-my-biz-have-website.webp" alt="business website image">
-          <div class="content">
-              <h3>A poultry business detailed business plan</h3>
-              <div class="price">work in progress/-</div>
-          </div>
-      </div>
-      <div class="cart-item">
-          <span class="fas fa-times"></span>
-          <img src="../images/web-programming.png" alt="programming image">
-          <div class="content">
-              <h3>Introduction to web development</h3>
-              <div class="price">work in progress/-</div>
-          </div>
-      </div>
-      <a href="#" class="btn">checkout now</a>
-  </div>
-
+    <header>
+    <!--- impending the header file to this file-->
+    <?php  include '../html/header.php' ?>
 </header>
 
 <!-- header section ends -->
@@ -194,7 +135,7 @@
             
           </p>
           <div class="download-btn">
-           <a href="" target="_blank">
+           <a href="../html/wordpressContents.php" >
             <button>Explore</button>
           </a>
           </div>
@@ -216,7 +157,7 @@
             
           </p>
           <div class="download-btn">
-           <a href="" target="_blank">
+           <a href="#">
             <button>Explore</button>
           </a>
           </div>
@@ -237,34 +178,7 @@
 
 <div class="box-container">
 
-    <div class="box">
-        <div class="image">
-            <img src="../images/why-should-my-biz-have-website.webp" alt="business website image">
-        </div>
-        <div class="content">
-            <a href="../blog/why-should-my-business-have-a-website.php" class="title">Why should my business have a website?</a>
-            <span>by Adewale / 3rd December, 2022</span>
-<p> Most times web application is confused with websites. Although the major difference is hardly significant with the recent 
-improvement in programming languages used for developing both web applications and websites.
-One of the major bottlenecks that make both confused... </p>
-            <a href="../blog/why-should-my-business-have-a-website.php" class="btn">read more</a>
-        </div>
-    </div>
-    <div class="box">
-        <div class="image">
-            <img src="../images/analytics.png" alt="analytics image">
-        </div>
-        <div class="content">
-            <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" class="title">should i use wordpress or html for my website?</a>
-            <span>by admin / 10th December, 2021</span>
-            <p>How should the website look? That is the design appearance of the website. The client or the developer can either have a 
-    rough sketch or better still use software like adobe illustrator for the design. This saves time in the long run and 
-    prevents unnecessary costs. It gives general ideas of how the designs will look.</p>
-            <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" class="btn">read more</a>
-        </div>
-    </div>
-
-    <div class="box">
+<div class="box">
             <div class="image">
                 <img src="../images/web-programming.png" alt="web programming image">
             </div>
@@ -278,6 +192,53 @@ One of the major bottlenecks that make both confused... </p>
                 <a href="../blog/web_development_course.php" class="btn">read more</a>
             </div>
         </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://s3.amazonaws.com/resume.cdn/articles/posts/dc9c6a16f85d5db665059e36b0a2af10-9241196_atsinfographic.png" alt="resume/CV image">
+            </div>
+            <div class="content">
+                <a href="../blog/writing-ats-resume.php" class="title">How to write a good Resume or CV?</a>
+                <span>by Adewale / December 17th, 2022</span>
+                <p>With the drastic change in Technological Development , it is no news that companies and employment agencies
+                   now use software like the Applicant Tracking System (ATS) to scan through millions of resumes and select the 
+                   best from the list. Many applicants complained about never being called for an interview despite submitting 
+                   several resumes.The truth is that each resume probably didn't pass through the Applicant Tracking System (ATS).
+                  </p>
+                <a href="../blog/writing-ats-resume.php" class="btn">read more</a>
+            </div>
+        </div>
+        
+
+    <div class="box">
+        <div class="image">
+            <img src="../images/why-should-my-biz-have-website.webp" alt="business website image">
+        </div>
+        <div class="content">
+            <a href="../blog/why-should-my-business-have-a-website.php" class="title">Why should my business have a website?</a>
+            <span>by Adewale / 3rd December, 2022</span>
+<p> Most times web application is confused with websites. Although the major difference is hardly significant with the recent 
+improvement in programming languages used for developing both web applications and websites.
+One of the major bottlenecks that make both confused... </p>
+            <a href="../blog/why-should-my-business-have-a-website.php" class="btn">read more</a>
+        </div>
+    </div>
+
+  
+
+    <div class="box">
+        <div class="image">
+            <img src="../images/analytics.png" alt="analytics image">
+        </div>
+        <div class="content">
+            <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" class="title">should i use wordpress or html for my website?</a>
+            <span>by Adewale / 10th December, 2021</span>
+            <p>How should the website look? That is the design appearance of the website. The client or the developer can either have a 
+    rough sketch or better still use software like adobe illustrator for the design. This saves time in the long run and 
+    prevents unnecessary costs. It gives general ideas of how the designs will look.</p>
+            <a href="../blog/should-i-use-wordpress-or-html-for-my-website.php" class="btn">read more</a>
+        </div>
+    </div>
 
 
 </section>
@@ -461,9 +422,10 @@ One of the major bottlenecks that make both confused... </p>
          <button>Explore More...</button>
        </a>
        
-       <a href="../html/support.php" target="_blank">
+       <!-- <a href="../html/support.php" target="_blank">
           <button>Contact Us</button>
-      </a>  
+      </a>   -->
+      <a href="mailto:webmasterjdd@gmail.com" class="send-mail">Contact Us</a>
        </div>
     </section>
     
